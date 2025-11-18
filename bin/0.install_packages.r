@@ -2,7 +2,7 @@
 #local:      INE, Lisboa
 #Rversion:   4.3.1
 #criado:     05.07.2023
-#modificado: 07.10.2024
+#modificado: 18.11.2025
 
 pack0 = c(
   "performance",    #package of "easystats" for diangosting models
@@ -31,4 +31,7 @@ pack3 = c(
   "vip"             #package for "variable importance" plots for ML models
 )
 
-install.packages(c(pack1,pack2,pack3), repos = "http://mirror.ibcp.fr/pub/CRAN/")
+install.packages(
+  c(pack0, pack1, pack2, pack3),
+  repos = "http://mirror.ibcp.fr/pub/CRAN/"
+)

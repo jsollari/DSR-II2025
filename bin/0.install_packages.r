@@ -2,10 +2,11 @@
 #local:      INE, Lisboa
 #Rversion:   4.3.1
 #criado:     05.07.2023
-#modificado: 18.11.2025
+#modificado: 07.10.2024
 
 pack0 = c(
-  "performance",    #package of "easystats" for diangosting models
+  "performance",    #package of "easystats" to diagnose models
+  "see",            #package with toolbox for "easystats"
   "rpart",          #package for decision tree models
   "tidyverse"       #collection of packages for "tidyverse"
 )
@@ -31,7 +32,4 @@ pack3 = c(
   "vip"             #package for "variable importance" plots for ML models
 )
 
-install.packages(
-  c(pack0, pack1, pack2, pack3),
-  repos = "http://mirror.ibcp.fr/pub/CRAN/"
-)
+install.packages(c(pack0, pack1,pack2,pack3), repos = "http://mirror.ibcp.fr/pub/CRAN/")

@@ -2,7 +2,7 @@
 #local:      INE, Lisboa
 #Rversion:   4.3.1
 #criado:     05.07.2023
-#modificado: 07.10.2024
+#modificado: 18.11.2025
 
 # 0. INDEX
 {
@@ -60,6 +60,7 @@ ggsave(f1, p1, "png", width = 17.2, height = 11.3, units = "cm", dpi = 72)
 # 3. MODELLING
 {
 library("performance")
+library("see")
 library("rpart")
 
 ## 3.1. PACKAGE stats

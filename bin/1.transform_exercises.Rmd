@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo=FALSE, eval=FALSE)
 
 # 1. NUMERIC VECTORS
 
-[from https://r4ds.hadley.nz/numbers]
+[from https://r4ds.hadley.nz/numbers.html]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/transform.html]
 
@@ -411,7 +411,7 @@ flights |>
 
 # 2. FACTORS
 
-[from https://r4ds.hadley.nz/factors]
+[from https://r4ds.hadley.nz/factors.html]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/factors.html]
 
@@ -574,7 +574,7 @@ gss_cat |>
   
 # 3. LOGICAL VECTORS
 
-[from https://r4ds.hadley.nz/logicals]
+[from https://r4ds.hadley.nz/logicals.html]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/vectors.html]
 

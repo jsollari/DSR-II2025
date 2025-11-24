@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo=TRUE, eval=FALSE)
 
 # 1. VARIATION
 
-[from https://r4ds.hadley.nz/eda#variation]
+[from https://r4ds.hadley.nz/EDA.html#variation]
 
 ```{r 1_variation, warning=FALSE, message=FALSE}
 library("nycflights13") #collection of datasets
@@ -115,7 +115,7 @@ flights |>
 
 # 2. MISSING VALUES
 
-[from https://r4ds.hadley.nz/missing-values]
+[from https://r4ds.hadley.nz/missing-values.html]
 
 ```{r 2_missing, warning=FALSE, message=FALSE}
 library("nycflights13") #collection of datasets
@@ -287,7 +287,7 @@ health |>
   
 # 3. COVARIATION
 
-[from https://r4ds.hadley.nz/eda#covariation]
+[from https://r4ds.hadley.nz/EDA.html#covariation]
 
 ```{r 3_covariation, warning=FALSE, message=FALSE}
 library("hexbin")       #function geom_hex() for data visualization
@@ -376,7 +376,7 @@ ggplot(smaller, aes(x = carat, y = price)) +
   
 # 4. PATTERNS AND MODELS
 
-[from https://r4ds.hadley.nz/eda#patterns-and-models]
+[from https://r4ds.hadley.nz/EDA.html#patterns-and-models]
 
 ```{r 4_patterns, warning=FALSE, message=FALSE}
 library("tidymodels") #collection of packages for data modelling

@@ -2,7 +2,7 @@
 #local:      INE, Lisboa
 #Rversion:   4.3.1
 #criado:     05.07.2023
-#modificado: 03.10.2024
+#modificado: 24.11.2025
 
 # 0. INDEX
 {
@@ -25,7 +25,7 @@
 }
 # 1. NUMERIC VECTORS
 {
-#from https://r4ds.hadley.nz/numbers/
+#from https://r4ds.hadley.nz/numbers.html
 library("nycflights13") #collection of datasets
 library("skimr")        #function skim() for descriptive statistics
 library("tidyverse")    #collection of packages for data analysis
@@ -284,7 +284,7 @@ flights |>
 }
 # 2. FACTORES
 {
-#from https://r4ds.hadley.nz/factors
+#from https://r4ds.hadley.nz/factors.html
 library("tidyverse") #collection of packages for data analysis
 
 # 2.1 BASICS
@@ -453,7 +453,7 @@ gss_cat |>
 }
 # 3. LOGICAL VECTORS
 {
-#from https://r4ds.hadley.nz/logicals
+#from https://r4ds.hadley.nz/logicals.html
 library("nycflights13") #collection of datasets
 library("tidyverse")    #collection of packages for data analysis
 

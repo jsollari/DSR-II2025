@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo=FALSE, eval=FALSE)
 
 # 1. VARIATION
 
-[from https://r4ds.hadley.nz/eda#variation]
+[from https://r4ds.hadley.nz/EDA.html#variation]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html]
 
@@ -143,7 +143,7 @@ ggplot(diamonds, aes(x = price)) +
 
 # 2. MISSING VALUES
 
-[from https://r4ds.hadley.nz/missing-values]
+[from https://r4ds.hadley.nz/missing-values.html]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html]
 
@@ -212,7 +212,7 @@ flights |>
   
 # 3. COVARIATION
 
-[from https://r4ds.hadley.nz/eda#covariation]
+[from https://r4ds.hadley.nz/EDA.html#covariation]
 
 [see https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html]
 

@@ -2,7 +2,7 @@
 #local:      INE, Lisboa
 #Rversion:   4.3.1
 #criado:     17.07.2023
-#modificado: 03.10.2024
+#modificado: 24.11.2025
 
 # 0. INDEX
 {
@@ -22,7 +22,7 @@
 }
 # 1. VARIATION
 {
-#from https://r4ds.hadley.nz/eda#variation
+#from https://r4ds.hadley.nz/EDA.html#variation
 library("nycflights13") #collection of datasets
 library("skimr")        #function skim() for descriptive statistics
 library("tidyverse")    #collection of packages for data analysis
@@ -98,7 +98,7 @@ flights |>
 }
 # 2. MISSING VALUES
 {
-#from https://r4ds.hadley.nz/missing-values
+#from https://r4ds.hadley.nz/missing-values.html
 library("nycflights13") #collection of datasets
 library("tidyverse")    #collection of packages for data analysis
 
@@ -227,7 +227,7 @@ health |>
 }
 # 3. COVARIATION
 {
-#from https://r4ds.hadley.nz/eda#covariation
+#from https://r4ds.hadley.nz/EDA.html#covariation
 library("hexbin")       #function geom_hex() for data visualization
 library("tidyverse")    #collection of packages for data analysis
 
@@ -300,7 +300,7 @@ ggplot(smaller, aes(x = carat, y = price)) +
 }
 # 4. PATTERNS AND MODELS
 {
-#from https://r4ds.hadley.nz/eda#patterns-and-models
+#from https://r4ds.hadley.nz/EDA.html#patterns-and-models
 library("tidymodels") #collection of packages for data modelling
 library("tidyverse")  #collection of packages for data analysis
 
